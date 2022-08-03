@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'PT Sans', sans-serif;
+  background-color: #f8f6f1;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+h1, h2, h4 {
+  font-family: 'Bodoni Moda', serif;
+}
+
+h4 {
+  font-size: 32px;
+}
+
+p {
+  font-size: 18px;
+}
+
+.text-red {
+  color: #d84f47;
+}
+
+.box-shadow {
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-end {
+  text-align: end;
+}
+
+.border-container {
+  border: 1px solid #86827e;
+}
+
+.text-container {
+  padding: 40px 50px;
+  border-radius: 4px;
+  margin: 30px;
+}
+
+.paragraph-container {
+  background-color: rgb(233, 225, 217);
+}
+
+.button_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+.button_container button {
+  border-radius: 3px;
+  font-size: 18px;
+  padding: 15px 35px;
+  margin: 10px;
+}
+
+.button-primary {
+  background-color: #d84f47;
+  border: 1px solid #d84f47;
+  color: #fff;
+}
+
+.button-primary:hover {
+  background-color: #bd3c35;
+  transition: 5ms ease-in-out;
+}
+
+.button-secondary {
+  background-color: #9d9690;
+  border: 1px solid #9d9690;
+  color: #fff;
+}
+
+.button-secondary:hover {
+  background-color: #86827e;
+  transition: 5ms ease-in-out;
+}
+
+#intro-header {
+  background-color: #d84f47;
+  color: #fff;
+}
+
+#croissant {
+  font-size: 32px;
+}
+
+#profile-pic {
+  max-width: 180px;
+  border-radius: 50%;
+  margin-top: 25px;
+}
+
+#icons-container {
+  display: flex;
+  justify-content: end;
+}
+
+#icons-container i {
+  font-size: 32px;
+  color: #fff;
+}
+
+@media (max-width: 720px) {
+  .text-end {
+    text-align: center;
+  }
+}
